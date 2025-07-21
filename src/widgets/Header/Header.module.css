@@ -1,0 +1,93 @@
+.header {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding-top: 30px;
+  color: #fff;
+  font-family: 'Suisse Intl', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  opacity: 1;
+}
+
+@media (min-width: 1440px) {
+  .header {
+    width: 1260px;
+    height: 70px;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.5px;
+}
+.logoSub {
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 2px;
+}
+
+.nav {
+  display: flex;
+  gap: 36px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.lang {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.search {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.button {
+  border: 1.5px solid #fff;
+  background: none;
+  color: #fff;
+  border-radius: 12px;
+  padding: 7px 22px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.button:hover {
+  background: #fff;
+  color: #232323;
+}
+
+.logo img {
+  display: block;
+  margin: 0;
+  padding: 0;
+} 
