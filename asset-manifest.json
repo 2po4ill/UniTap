@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/UniTap/static/css/main.9c5ee5c0.css",
+    "main.js": "/UniTap/static/js/main.bf633f45.js",
+    "static/js/453.670e15c7.chunk.js": "/UniTap/static/js/453.670e15c7.chunk.js",
+    "static/media/logo.svg": "/UniTap/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/UniTap/index.html",
+    "main.9c5ee5c0.css.map": "/UniTap/static/css/main.9c5ee5c0.css.map",
+    "main.bf633f45.js.map": "/UniTap/static/js/main.bf633f45.js.map",
+    "453.670e15c7.chunk.js.map": "/UniTap/static/js/453.670e15c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c5ee5c0.css",
+    "static/js/main.bf633f45.js"
+  ]
+}
