@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/UniTap/static/css/main.b503de17.css",
-    "main.js": "/UniTap/static/js/main.80d196e7.js",
+    "main.js": "/UniTap/static/js/main.0732f46d.js",
     "static/media/Hero.png": "/UniTap/static/media/Hero.3d09102d4a1a1a8f302d.png",
     "static/media/suisse-intl-medium.ttf": "/UniTap/static/media/suisse-intl-medium.7b37defa04ce4e5739f0.ttf",
     "static/media/ForBusiness.svg": "/UniTap/static/media/ForBusiness.87d23bf7773427de1915d6af5c7cdaba.svg",
     "static/media/UniTap.svg": "/UniTap/static/media/UniTap.6b6ceeb98da9ee825255c387ab42294e.svg",
     "index.html": "/UniTap/index.html",
     "main.b503de17.css.map": "/UniTap/static/css/main.b503de17.css.map",
-    "main.80d196e7.js.map": "/UniTap/static/js/main.80d196e7.js.map"
+    "main.0732f46d.js.map": "/UniTap/static/js/main.0732f46d.js.map"
   },
   "entrypoints": [
     "static/css/main.b503de17.css",
-    "static/js/main.80d196e7.js"
+    "static/js/main.0732f46d.js"
   ]
 }
