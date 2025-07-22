@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/UniTap/static/css/main.b503de17.css",
-    "main.js": "/UniTap/static/js/main.0732f46d.js",
+    "main.css": "/UniTap/static/css/main.253e684f.css",
+    "main.js": "/UniTap/static/js/main.ae57d3ca.js",
     "static/media/Hero.png": "/UniTap/static/media/Hero.3d09102d4a1a1a8f302d.png",
+    "static/media/Coin.png": "/UniTap/static/media/Coin.8a2d6b6b75cbbc23b14d.png",
+    "static/media/Unique.png": "/UniTap/static/media/Unique.2c5b40c3466deb977bef.png",
+    "static/media/Visits.png": "/UniTap/static/media/Visits.de192a01e920e0fc4164.png",
+    "static/media/Smart.png": "/UniTap/static/media/Smart.c42a5497cdc2f8d79803.png",
+    "static/media/Gains.png": "/UniTap/static/media/Gains.967814791300b10e8388.png",
     "static/media/suisse-intl-medium.ttf": "/UniTap/static/media/suisse-intl-medium.7b37defa04ce4e5739f0.ttf",
+    "static/media/Business.png": "/UniTap/static/media/Business.e7849d83354dc0d99784.png",
     "static/media/ForBusiness.svg": "/UniTap/static/media/ForBusiness.87d23bf7773427de1915d6af5c7cdaba.svg",
     "static/media/UniTap.svg": "/UniTap/static/media/UniTap.6b6ceeb98da9ee825255c387ab42294e.svg",
     "index.html": "/UniTap/index.html",
-    "main.b503de17.css.map": "/UniTap/static/css/main.b503de17.css.map",
-    "main.0732f46d.js.map": "/UniTap/static/js/main.0732f46d.js.map"
+    "main.253e684f.css.map": "/UniTap/static/css/main.253e684f.css.map",
+    "main.ae57d3ca.js.map": "/UniTap/static/js/main.ae57d3ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.b503de17.css",
-    "static/js/main.0732f46d.js"
+    "static/css/main.253e684f.css",
+    "static/js/main.ae57d3ca.js"
   ]
 }
