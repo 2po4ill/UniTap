@@ -1,1 +1,1 @@
-export { default } from './BusinessConnectBlock'; 
+export { default } from './BusinessConnectBlock';

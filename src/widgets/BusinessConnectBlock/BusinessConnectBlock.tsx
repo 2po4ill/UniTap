@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './BusinessConnectBlock.module.css';
 import BusinessFeatureCard from '../../shared/ui/BusinessFeatureCard';
-// Replace these imports with actual asset paths
 import CoinImg from '../../shared/assets/imgs/photos/Coin.png';
 import BusinessBadge from '../../shared/assets/imgs/photos/Business.png';
 import AfishaIcon from '../../shared/assets/imgs/icons/Afisha.png';

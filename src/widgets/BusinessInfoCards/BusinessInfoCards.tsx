@@ -6,10 +6,6 @@ import SmartImg from '../../shared/assets/imgs/photos/Smart.png';
 import UniqueImg from '../../shared/assets/imgs/photos/Unique.png';
 import styles from './BusinessInfoCards.module.css';
 
-interface BusinessInfoCardsProps {
-  isLightMode?: boolean;
-}
-
 const cards = [
   {
     image: GainsImg,
@@ -37,7 +33,11 @@ const cards = [
   },
 ];
 
-const BusinessInfoCards: React.FC<BusinessInfoCardsProps> = ({ isLightMode = false }) => {
+interface BusinessInfoCardsProps {
+  isLightMode?: boolean;
+}
+
+const BusinessInfoCards: React.FC<BusinessInfoCardsProps> = ({ isLightMode }) => {
   return (
     <div>
       <div className={styles.cardsHeader}>

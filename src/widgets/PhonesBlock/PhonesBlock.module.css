@@ -1,0 +1,218 @@
+.appBlockSection {
+  width: 100%;
+  margin-top: 110px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 48px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.title {
+  font-family: Suisse Intl;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 50px;
+  line-height: 55px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  width: 728px;
+  color: var(--text-primary, #131314);
+  margin: 0 0 18px 0;
+}
+
+.subtitle {
+  font-family: Suisse Intl;
+  font-weight: 450;
+  font-style: Book;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  width: 441px;
+  color: var(--text-disable, #13131466);
+  margin: 0;
+}
+
+.phonesBlockTop {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 31px;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 0 31px 0;
+}
+
+.phoneCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 0;
+}
+
+.phoneImgLeft {
+  width: auto;
+  height: 420px;
+  border-radius: 38px;
+  background: #f6f7f9;
+}
+
+.phoneImgRight {
+  width: 400px;
+  max-width: 100%;
+  border-radius: 38px;
+  background: #f6f7f9;
+}
+
+.phonesMainSplit {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 31px;
+}
+
+.phonesLeftGrid {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  flex: 1 1 0;
+  gap: 31px;
+}
+
+.phonesLeftTopRow {
+  display: flex;
+  flex-direction: row;
+  gap: 31px;
+}
+
+.phoneGridCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 0;
+}
+
+.phonesLeftBottomRow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 520px;
+}
+
+.phonesRightTall {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: stretch;
+  flex: 1 1 0;
+}
+
+.phoneImgPurple {
+  width: 399px;
+  height: auto;
+}
+
+.phoneImgDelivery {
+  width: 399px;
+  height: auto;
+}
+
+.phoneImgUnitap {
+  width: 850px;
+  height: 450px;
+}
+
+.phoneImgShop {
+    width: 399px;
+    height: 1057px;
+}
+
+.titleTextLeft {
+  font-family: Suisse Intl;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #131314;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.subtitleTextLeft {
+  font-family: Suisse Intl;
+  font-weight: 450;
+  font-style: Book;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: var(--text-disable, #13131466);
+  margin: 0 0 0 0;
+  width: 829px;
+}
+
+.titleTextRight {
+  font-family: Suisse Intl;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #131314;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  width: 400px;
+}
+
+.subtitleTextRight {
+  font-family: Suisse Intl;
+  font-weight: 450;
+  font-style: Book;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: var(--text-disable, #13131466);
+  margin: 0 0 0 0;
+  width: 400px;
+}
+
+@media (max-width: 900px) {
+  .phonesBlock {
+    flex-direction: column;
+    gap: 32px;
+    padding: 0 0 40px 0;
+  }
+  .phoneCol {
+    min-width: 0;
+    width: 100%;
+  }
+  .phoneImg {
+    max-width: 100%;
+  }
+} 

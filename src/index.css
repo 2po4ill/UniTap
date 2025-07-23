@@ -9,14 +9,14 @@
 body {
   margin: 0;
   font-family: 'Suisse Intl', sans-serif;
-  background: #212121;
+  background: #fff;
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 #root {
-  background: #212121;
+  background: #fff;
   min-height: 100vh;
 }
 

@@ -1,0 +1,67 @@
+.appBlockSection {
+  width: 100%;
+  padding: 80px 0 0 0;
+  background: #fff;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.title {
+  font-family: 'Suisse Intl', sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  color: #131314;
+  margin: 0 0 18px 0;
+}
+
+.subtitle {
+  font-family: 'Suisse Intl', sans-serif;
+  font-size: 20px;
+  color: #b0b0b0;
+  margin: 0;
+}
+
+.cardsRow {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.card {
+  background: #f6f7f9;
+  border-radius: 32px;
+  padding: 40px 32px 32px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 420px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+}
+
+.cardImage {
+  width: 100%;
+  max-width: 340px;
+  margin-bottom: 32px;
+}
+
+.cardTitle {
+  font-family: 'Suisse Intl', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #131314;
+  margin: 0 0 12px 0;
+  text-align: center;
+}
+
+.cardDesc {
+  font-family: 'Suisse Intl', sans-serif;
+  font-size: 16px;
+  color: #b0b0b0;
+  margin: 0;
+  text-align: center;
+} 
