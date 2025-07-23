@@ -1,23 +1,34 @@
 {
   "files": {
-    "main.css": "/UniTap/static/css/main.253e684f.css",
-    "main.js": "/UniTap/static/js/main.ae57d3ca.js",
+    "main.css": "/UniTap/static/css/main.bcc75710.css",
+    "main.js": "/UniTap/static/js/main.97018e97.js",
     "static/media/Hero.png": "/UniTap/static/media/Hero.3d09102d4a1a1a8f302d.png",
+    "static/media/iPhone.png": "/UniTap/static/media/iPhone.6999f8925f036d7fd6df.png",
+    "static/media/ShopListPhones.png": "/UniTap/static/media/ShopListPhones.548b362eaf2ed107c594.png",
+    "static/media/UnitapPhone.png": "/UniTap/static/media/UnitapPhone.52f63f4b0b3e216fd8b4.png",
+    "static/media/2phones.png": "/UniTap/static/media/2phones.b16ca378d5bdae5c0499.png",
     "static/media/Coin.png": "/UniTap/static/media/Coin.8a2d6b6b75cbbc23b14d.png",
+    "static/media/PurplePhone.png": "/UniTap/static/media/PurplePhone.4162dadcd2892dab0101.png",
+    "static/media/Cards.png": "/UniTap/static/media/Cards.a8bd8195fc18066c8fe8.png",
     "static/media/Unique.png": "/UniTap/static/media/Unique.2c5b40c3466deb977bef.png",
+    "static/media/TB.png": "/UniTap/static/media/TB.32fdff13850c73305c6f.png",
     "static/media/Visits.png": "/UniTap/static/media/Visits.de192a01e920e0fc4164.png",
+    "static/media/Laptop.png": "/UniTap/static/media/Laptop.a90fca959138165d4a59.png",
     "static/media/Smart.png": "/UniTap/static/media/Smart.c42a5497cdc2f8d79803.png",
+    "static/media/WB.png": "/UniTap/static/media/WB.8be42c2e8c4b908b3a28.png",
     "static/media/Gains.png": "/UniTap/static/media/Gains.967814791300b10e8388.png",
+    "static/media/DeliveryPhone.png": "/UniTap/static/media/DeliveryPhone.5246cce68594d23dc1ce.png",
+    "static/media/1phone.png": "/UniTap/static/media/1phone.2c68bc6b7347cd301bd9.png",
     "static/media/suisse-intl-medium.ttf": "/UniTap/static/media/suisse-intl-medium.7b37defa04ce4e5739f0.ttf",
     "static/media/Business.png": "/UniTap/static/media/Business.e7849d83354dc0d99784.png",
     "static/media/ForBusiness.svg": "/UniTap/static/media/ForBusiness.87d23bf7773427de1915d6af5c7cdaba.svg",
     "static/media/UniTap.svg": "/UniTap/static/media/UniTap.6b6ceeb98da9ee825255c387ab42294e.svg",
     "index.html": "/UniTap/index.html",
-    "main.253e684f.css.map": "/UniTap/static/css/main.253e684f.css.map",
-    "main.ae57d3ca.js.map": "/UniTap/static/js/main.ae57d3ca.js.map"
+    "main.bcc75710.css.map": "/UniTap/static/css/main.bcc75710.css.map",
+    "main.97018e97.js.map": "/UniTap/static/js/main.97018e97.js.map"
   },
   "entrypoints": [
-    "static/css/main.253e684f.css",
-    "static/js/main.ae57d3ca.js"
+    "static/css/main.bcc75710.css",
+    "static/js/main.97018e97.js"
   ]
 }
