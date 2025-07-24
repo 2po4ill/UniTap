@@ -1,0 +1,53 @@
+.inputWrapper {
+  position: relative;
+  width: 556px;
+  height: 65px;
+}
+
+.input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  border-radius: 16px;
+  border: none;
+  background: #292929;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Suisse Intl', sans-serif;
+  box-sizing: border-box;
+  padding: 14px 18px;
+}
+
+input[type="textarea"],
+textarea.input {
+  resize: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: 100%;
+  padding: 14px 18px;
+}
+
+.placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: 100%;
+  color: #b0b0b0;
+  font-size: 16px;
+  font-family: 'Suisse Intl', sans-serif;
+  pointer-events: none;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  padding: 14px 18px;
+}
+
+/* Top-align placeholder for textarea */
+.textareaWrapper .placeholder {
+  align-items: flex-start;
+} 

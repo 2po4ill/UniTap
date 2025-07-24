@@ -4,15 +4,14 @@ import styles from './AboutBusinessPage.module.css';
 import BusinessBlocks from '../../features/BusinessBlocks';
 import BusinessAppBlock from '../../features/BusinessAppBlock';
 import AttractClientsBlock from '../../features/AttractClientsBlock/AttractClientsBlock';
+import Footer from '../../features/Footer/Footer';
 const AboutBusinessPage = () => {
     return (
         <div className={styles.profilePage}>
-            
             <BusinessBlocks />
             <BusinessAppBlock />
             <AttractClientsBlock />
-            <div className={styles.profileHeader}>
-            </div>
+            <Footer />
         </div>
     );
 };

@@ -1,22 +1,14 @@
 .featureCard {
-  background: #232323;
+  background: var(--bg-white_secondary, #FFFFFF14);
   border-radius: 24px;
-  padding: 32px 24px 24px 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.10);
-  width: 340px;
-  min-height: 420px;
+  width: 400px;
+  height: 464px;
   margin: 0 auto;
-}
-
-.cardImage {
-  width: 100%;
-  max-width: 220px;
-  height: auto;
-  margin-bottom: 24px;
-  border-radius: 16px;
+  justify-content: space-between;
+  overflow: hidden;
 }
 
 .cardContent {
@@ -24,35 +16,85 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  margin-top: 40px;
 }
 
-.cardTitle {
-  color: #fff;
-  font-family: 'Suisse Intl', sans-serif;
-  font-size: 22px;
-  font-weight: 600;
-  margin: 0 0 12px 0;
-  text-align: center;
+.imageButtonWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
+
+.cardImage {
+  width: 400px;
+  height: auto;
+  margin-top: 24px;
+  border-radius: 16px;
+  display: block;
+}
+
+
 
 .cardDescription {
-  color: #e0e0e0;
-  font-family: 'Suisse Intl', sans-serif;
-  font-size: 16px;
-  margin: 0 0 24px 0;
-  text-align: center;
+  color: var(--text-secondary-inverse, #FFFFFFE0);
+
+  font-family: Suisse Intl;
+font-weight: 450;
+font-style: Book;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+width: 327px;
+
+  margin: 12px 0 0 0;
 }
 
 .cardButton {
+  position: absolute;
+  left: 50%;
+  bottom: 32px;
+  transform: translateX(-50%);
   background: #fff;
   color: #232323;
   border: none;
   border-radius: 10px;
-  padding: 10px 28px;
-  font-size: 16px;
-  font-weight: 500;
+  padding: 10px;
+
+  font-family: Suisse Intl;
+font-weight: 450;
+font-style: Book;
+font-size: 14.06px;
+leading-trim: NONE;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+width: 125px;
+
   cursor: pointer;
   transition: background 0.2s, color 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.cardTitle {
+  color: #fff;
+  font-family: Suisse Intl;
+font-weight: 500;
+font-style: Medium;
+font-size: 25px;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+  width: 315px;
+
 }
 
 .cardButton:hover {

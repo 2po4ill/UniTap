@@ -1,0 +1,1 @@
+export { AttractClientsInfoWidget } from './AttractClientsInfoWidget';
