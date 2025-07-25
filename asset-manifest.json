@@ -1,11 +1,19 @@
 {
   "files": {
-    "main.css": "/UniTap/static/css/main.fb1c5be2.css",
-    "main.js": "/UniTap/static/js/main.b2a38e76.js",
+    "main.css": "/UniTap/static/css/main.b892b185.css",
+    "main.js": "/UniTap/static/js/main.9e60273d.js",
     "static/media/Hero.png": "/UniTap/static/media/Hero.3d09102d4a1a1a8f302d.png",
     "static/media/iPhone.png": "/UniTap/static/media/iPhone.6999f8925f036d7fd6df.png",
     "static/media/ShopListPhones.png": "/UniTap/static/media/ShopListPhones.548b362eaf2ed107c594.png",
     "static/media/UnitapPhone.png": "/UniTap/static/media/UnitapPhone.52f63f4b0b3e216fd8b4.png",
+    "static/media/SuisseIntl-SemiBold.otf": "/UniTap/static/media/SuisseIntl-SemiBold.bc8a07fd3d909616d31a.otf",
+    "static/media/SuisseIntl-Thin.otf": "/UniTap/static/media/SuisseIntl-Thin.79c7f9ff5f1fabf1d416.otf",
+    "static/media/SuisseIntl-Regular.otf": "/UniTap/static/media/SuisseIntl-Regular.b248914e0a53493d03f0.otf",
+    "static/media/SuisseIntl-Ultralight.otf": "/UniTap/static/media/SuisseIntl-Ultralight.c30a66aa54be26d468cf.otf",
+    "static/media/SuisseIntl-SemiBoldItalic.otf": "/UniTap/static/media/SuisseIntl-SemiBoldItalic.3497026988c408895e44.otf",
+    "static/media/SuisseIntl-ThinItalic.otf": "/UniTap/static/media/SuisseIntl-ThinItalic.fca58962fc135a12b4fd.otf",
+    "static/media/SuisseIntl-RegularItalic.otf": "/UniTap/static/media/SuisseIntl-RegularItalic.10d0e98dcb02582e41b6.otf",
+    "static/media/SuisseIntl-UltralightItalic.otf": "/UniTap/static/media/SuisseIntl-UltralightItalic.db68d9e0c01288975934.otf",
     "static/media/2phones.png": "/UniTap/static/media/2phones.b16ca378d5bdae5c0499.png",
     "static/media/Coin.png": "/UniTap/static/media/Coin.8a2d6b6b75cbbc23b14d.png",
     "static/media/PurplePhone.png": "/UniTap/static/media/PurplePhone.4162dadcd2892dab0101.png",
@@ -19,17 +27,16 @@
     "static/media/Gains.png": "/UniTap/static/media/Gains.967814791300b10e8388.png",
     "static/media/DeliveryPhone.png": "/UniTap/static/media/DeliveryPhone.5246cce68594d23dc1ce.png",
     "static/media/1phone.png": "/UniTap/static/media/1phone.2c68bc6b7347cd301bd9.png",
-    "static/media/suisse-intl-medium.ttf": "/UniTap/static/media/suisse-intl-medium.7b37defa04ce4e5739f0.ttf",
     "static/media/Business.png": "/UniTap/static/media/Business.e7849d83354dc0d99784.png",
     "static/media/ForBusiness.svg": "/UniTap/static/media/ForBusiness.87d23bf7773427de1915d6af5c7cdaba.svg",
     "static/media/UniTap.svg": "/UniTap/static/media/UniTap.6b6ceeb98da9ee825255c387ab42294e.svg",
     "static/media/Arrow.svg": "/UniTap/static/media/Arrow.61ddeff5060ca5c50e18ca24bf91f0ef.svg",
     "index.html": "/UniTap/index.html",
-    "main.fb1c5be2.css.map": "/UniTap/static/css/main.fb1c5be2.css.map",
-    "main.b2a38e76.js.map": "/UniTap/static/js/main.b2a38e76.js.map"
+    "main.b892b185.css.map": "/UniTap/static/css/main.b892b185.css.map",
+    "main.9e60273d.js.map": "/UniTap/static/js/main.9e60273d.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb1c5be2.css",
-    "static/js/main.b2a38e76.js"
+    "static/css/main.b892b185.css",
+    "static/js/main.9e60273d.js"
   ]
 }
