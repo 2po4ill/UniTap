@@ -72,10 +72,29 @@ const FooterWidget: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className={styles.footerBottom}>
-        <a href="#">Обратная связь</a>
-        <a href="#">Политика конфиденциальности</a>
-        <span>© 2023–2024, UniTap</span>
+      <div className={styles.footerBottomWrapper}>
+        <div className={styles.footerDivider} />
+        <div className={styles.footerBottomRow1}>
+          <div className={styles.footerBottomLeft}>
+            <div className={styles.footerPhone}>8 (999) 999-99-99</div>
+            <div className={styles.footerAddress}>
+              г. Казань, ул. Пушкина, д. Колотушкина, этаж 1, ком. Б2, офис 6, ИНН 9999999999, КПП 999999999, ОГРН 9999999999, 0+
+            </div>
+          </div>
+          <div className={styles.footerBottomRight}>
+            UniTap – инновационная платформа г. Казань, ул. Пушкина, д. Колотушкина, этаж 1, ком. Б2, офис 6, ИНН 9999999999, КПП 999999999, ОГРН 9999999999, 0+
+          </div>
+        </div>
+        <div className={styles.footerDivider} />
+        <div className={styles.footerBottomRow2}>
+          <div className={styles.footerBottomLeft2}>
+            <a href="#">Обратная связь</a>
+          </div>
+          <div className={styles.footerBottomRight2}>
+            <a href="#">Политика конфиденциальности</a>
+            <span>© 2023–2024, UniTap</span>
+          </div>
+        </div>
       </div>
     </footer>
   );

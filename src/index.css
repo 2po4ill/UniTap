@@ -1,8 +1,57 @@
 @font-face {
   font-family: 'Suisse Intl';
-  src: url('./shared/assets/fonts/suisse-intl-medium.ttf') format('truetype');
-  font-weight: 500;
+  src: url('./shared/assets/fonts/SuisseIntl-Regular.otf') format('opentype');
+  font-weight: 400;
   font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Suisse Intl';
+  src: url('./shared/assets/fonts/SuisseIntl-RegularItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Suisse Intl';
+  src: url('./shared/assets/fonts/SuisseIntl-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Suisse Intl';
+  src: url('./shared/assets/fonts/SuisseIntl-SemiBoldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Suisse Intl';
+  src: url('./shared/assets/fonts/SuisseIntl-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Suisse Intl';
+  src: url('./shared/assets/fonts/SuisseIntl-ThinItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Suisse Intl';
+  src: url('./shared/assets/fonts/SuisseIntl-Ultralight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Suisse Intl';
+  src: url('./shared/assets/fonts/SuisseIntl-UltralightItalic.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
   font-display: swap;
 }
 

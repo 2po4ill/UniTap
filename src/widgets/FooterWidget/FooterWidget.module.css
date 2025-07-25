@@ -11,13 +11,12 @@
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   grid-template-rows: 1fr 1fr;
-  gap: 0 80px;
   align-items: start;
-  justify-content: space-between;
   margin: 0;
-  padding: 0 48px;
   width: 100%;
   box-sizing: border-box;
+  padding-bottom: 12px;
+  height: 440px;
 }
 
 .footerColLogo {
@@ -106,31 +105,53 @@ text-align: left;
 
 .footerColGroups {
   flex: 0 0 340px;
+  max-width: 612px;
   display: flex;
   flex-direction: row;
-  gap: 36px;
   justify-content: flex-start;
   align-items: flex-start;
 }
 .footerGroup {
   display: flex;
   flex-direction: column;
-  gap: 7px;
-  min-width: 120px;
+  gap: 10px;
+  min-width: 180px;
+  margin-right: 32px;
   align-items: flex-start;
 }
+
+
 .footerGroupTitle {
-  color: #b0b0b0;
-  font-size: 13px;
-  font-weight: 700;
-  margin-bottom: 4px;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
+  color: var(--text-primary-inverse, #FFFFFF);
+
+  font-family: Suisse Intl;
+font-weight: 500;
+font-style: Medium;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 22px;
+letter-spacing: 0.1px;
+vertical-align: middle;
+text-transform: uppercase;
+text-align: left;
+  margin-bottom: 10px;
+
+
 }
 .footerGroup a {
-  color: #fff;
+  color: var(--text-secondary-inverse, #FFFFFFE0);
+
   text-decoration: none;
-  font-size: 15px;
+  font-family: Suisse Intl;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 22px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: left;
+
   transition: color 0.2s;
 }
 .footerGroup a:hover {
@@ -150,24 +171,36 @@ text-align: left;
 }
 .footerPhone {
   color: #fff;
-  font-size: 17px;
-  font-weight: 600;
+  font-family: Suisse Intl;
+font-weight: 400;
+font-style: Regular;
+font-size: 22px;
+leading-trim: NONE;
+line-height: 28px;
+letter-spacing: 0%;
+vertical-align: middle;
+
   margin-bottom: 2px;
 }
 .footerAddress {
   margin-bottom: 2px;
+  width: 600px;
+  font-family: Suisse Intl;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 20px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-align: left;
 }
 .footerCompany {
-  font-size: 13px;
-  color: #b0b0b0;
+  
 }
 
 .footerBottom {
   border-top: 1px solid #393939;
-  margin-top: 32px;
-  padding: 16px 48px 12px 48px;
-  margin-left: 0;
-  margin-right: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -192,7 +225,6 @@ text-align: left;
   grid-column: 2 / 3;
   display: flex;
   flex-direction: row;
-  gap: 80px;
   align-items: flex-start;
   justify-content: flex-start;
   margin-left: 0;
@@ -210,7 +242,6 @@ text-align: left;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto auto;
-  gap: 0 60px;
   align-items: start;
   justify-items: start;
   margin-left: 60px;
@@ -222,7 +253,6 @@ text-align: left;
   grid-row: 1 / 2;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 0 60px;
 }
 
 .footerGridRow2 {
@@ -232,4 +262,79 @@ text-align: left;
   grid-template-columns: repeat(2, 1fr);
   gap: 0 60px;
   margin-top: 18px;
+} 
+
+.footerBottomWrapper {
+  width: 100%;
+  margin-top: 32px;
+  box-sizing: border-box;
+}
+
+.footerBottomRow1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 20px;
+  color: #b0b0b0;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.footerBottomLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.footerBottomRight {
+  color: var(--text-secondary-inverse, #FFFFFFE0);
+
+  font-family: Suisse Intl;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 20px;
+letter-spacing: 0%;
+vertical-align: middle;
+width: 650px;
+text-align: right;
+  max-width: 50%;
+}
+
+.footerDivider {
+  width: 100%;
+  height: 1px;
+  background: #393939;
+  margin: 8px 0 12px 0;
+}
+
+.footerBottomRow2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #b0b0b0;
+  font-size: 14px;
+  padding-bottom: 100px;
+}
+
+.footerBottomLeft2 a,
+.footerBottomRight2 a {
+  color: #b0b0b0;
+  text-decoration: none;
+  margin-right: 24px;
+  font-size: 14px;
+}
+
+.footerBottomRight2 {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.footerBottomRight2 span {
+  margin-left: 8px;
 } 
