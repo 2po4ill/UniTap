@@ -11,6 +11,13 @@
   overflow: hidden;
 }
 
+@media (max-width: 1024px) {
+  .featureCard {
+    width: 305px;
+    height: 512px;
+  }
+}
+
 .cardContent {
   display: flex;
   flex-direction: column;
@@ -96,6 +103,32 @@ vertical-align: middle;
   width: 315px;
 
 }
+
+@media (max-width: 1024px) {
+  .cardTitle {
+    font-family: Suisse Intl;
+font-weight: 500;
+font-style: Medium;
+font-size: 25px;
+leading-trim: NONE;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+width: 276px;
+  }
+  .cardDescription {
+    font-family: Suisse Intl;
+font-weight: 450;
+font-style: Book;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+width: 276px;
+} }
 
 .cardButton:hover {
   background: #ffe066;

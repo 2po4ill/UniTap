@@ -11,6 +11,13 @@ border-radius: 60px;
 margin-bottom: 109px;
 }
 
+@media (max-width: 1024px) {
+  .newAppCardWrapper {
+    width: 980px;
+    gap: 30px;
+  }
+}
+
 .leftSection {
   display: flex;
   flex-direction: column;
@@ -20,12 +27,26 @@ margin-bottom: 109px;
   min-width: 340px;
   margin-left: 90px;
 }
+@media (max-width: 1024px) {
+  .leftSection {
+    margin-left: 34px;
+  }
+}
 
 .cardLogo {
   width: 108px;
   height: 108px;
   margin-top: 89px;
   margin-bottom: 106px;
+}
+
+@media (max-width: 1024px) {
+  .cardLogo {
+    width: 94px;
+    height: 94px;
+    margin-top: 34px;
+    margin-bottom: 140px;
+  }
 }
 
 .title {
@@ -41,12 +62,34 @@ letter-spacing: 0%;
 vertical-align: middle;
   text-align: left;
 }
+@media (max-width: 1024px) {
+  .title {
+    font-family: Suisse Intl;
+font-weight: 500;
+font-style: Medium;
+font-size: 35px;
+leading-trim: NONE;
+line-height: 45px;
+letter-spacing: 0%;
+vertical-align: middle;
+  
+  }
+}
 
 .storesRow {
   display: flex;
   flex-direction: row;
   gap: 25px;
   margin-top: 40px;
+}
+@media (max-width: 1024px) {
+  .storesRow {
+    margin-top: 30px;
+    gap: 15px;
+    width: 380px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .rightSection {
@@ -60,7 +103,11 @@ vertical-align: middle;
 .iphoneImg {
   width: 320px;
   height: auto;
-  border-radius: 24px;
+}
+@media (max-width: 1024px) {
+  .iphoneImg {
+    width: 305px;
+  }
 }
 
 .storeIcon {

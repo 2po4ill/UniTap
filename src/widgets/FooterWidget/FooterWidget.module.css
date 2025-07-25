@@ -7,6 +7,13 @@
     margin-right: 90px;
 }
 
+@media (max-width: 1024px) {
+  .footer {
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+}
+
 .footerTop {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
@@ -58,25 +65,37 @@
 .footerSocials {
     color: var(--text-primary-inverse, #FFFFFF);
 
-  font-family: Suisse Intl;
-font-weight: 500;
-font-style: Medium;
-font-size: 16px;
-leading-trim: NONE;
-line-height: 24px;
-letter-spacing: 0%;
-vertical-align: middle;
-width: 400px;
+    font-family: Suisse Intl;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    
 text-align: left;
   margin-bottom: 10px;
 }
-
+@media (max-width: 1024px) {
+  .footerSocials {
+    width: 305px;
+  }
+}
 
 .socialIcons {
   display: flex;
   flex-direction: row;
   gap: 25px;
   margin-top: 14px;
+}
+
+@media (max-width: 1024px) {
+.socialIcons {
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 204px;
+}
 }
 .socialIcons img {
   width: 22px;
@@ -111,6 +130,7 @@ text-align: left;
   justify-content: flex-start;
   align-items: flex-start;
 }
+
 .footerGroup {
   display: flex;
   flex-direction: column;
@@ -151,7 +171,7 @@ line-height: 22px;
 letter-spacing: 0%;
 vertical-align: middle;
 text-transform: left;
-
+text-align: left;
   transition: color 0.2s;
 }
 .footerGroup a:hover {
@@ -195,6 +215,13 @@ letter-spacing: 0%;
 vertical-align: middle;
 text-align: left;
 }
+
+@media (max-width: 1024px) {
+  .footerAddress {
+    width: 474px;
+  }
+}
+
 .footerCompany {
   
 }
@@ -247,12 +274,23 @@ text-align: left;
   margin-left: 60px;
   width: 100%;
 }
+@media (max-width: 1024px) {
+  .footerRightGrid {
+    margin-left: 90px;
+    width: 70%;
+  }
+}
 
 .footerGridRow1 {
   grid-column: 1 / 4;
   grid-row: 1 / 2;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 1024px) {
+  .footerGridRow1 {
+    width: 612px;
+  }
 }
 
 .footerGridRow2 {
@@ -261,8 +299,14 @@ text-align: left;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0 60px;
-  margin-top: 18px;
+  margin-top: 27px;
 } 
+@media (max-width: 1024px) {
+  .footerGridRow2 {
+    width: 230px;
+    gap: 0;
+  }
+}
 
 .footerBottomWrapper {
   width: 100%;
@@ -302,6 +346,12 @@ vertical-align: middle;
 width: 650px;
 text-align: right;
   max-width: 50%;
+}
+
+@media (max-width: 1024px) {
+  .footerBottomRight {
+    width: 474px;
+  }
 }
 
 .footerDivider {

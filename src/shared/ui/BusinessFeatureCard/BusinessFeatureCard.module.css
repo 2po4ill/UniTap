@@ -1,7 +1,7 @@
 .card {
     background: var(--bg-white_secondary, #FFFFFF14);
-    width: 183;
-    height: 240;
+    width: 183px;
+    height: 240px;
     angle: 0 deg;
     opacity: 1;
     border-radius: 25px;
@@ -16,12 +16,31 @@
   margin: 0 auto;
   position: relative;
 }
+@media (max-width: 1024px) {
+  .card {
+    width: 136px;
+    height: 180px;
+    padding-top: 12px;
+    padding-right: 10px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    border-radius: 18px;
+  }
+}
 
 .icon {
   width: 60px;
   height: 60px;
   margin-bottom: 72px;
   align-self: flex-start;
+}
+
+@media (max-width: 1024px) {
+  .icon {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 53px;
+  }
 }
 
 .texts {
@@ -49,6 +68,20 @@
   text-align: left;
 }
 
+@media (max-width: 1024px) {
+  .title {
+    font-family: Suisse Intl;
+font-weight: 500;
+font-style: Medium;
+font-size: 15px;
+leading-trim: NONE;
+line-height: 22.42px;
+letter-spacing: 0%;
+vertical-align: middle;
+margin-bottom: 5px;
+  }
+}
+
 .description {
   width: 151px;
   height: 38px;
@@ -63,3 +96,16 @@ letter-spacing: 0%;
   vertical-align: middle;
   text-align: left;
 } 
+@media (max-width: 1024px) {
+  .description {
+    font-family: Suisse Intl;
+font-weight: 450;
+font-style: Book;
+font-size: 12px;
+leading-trim: NONE;
+line-height: 14.2px;
+letter-spacing: 0%;
+vertical-align: middle;
+width: 113px;
+  }
+}

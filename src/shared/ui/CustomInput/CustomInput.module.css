@@ -4,6 +4,12 @@
   height: 65px;
 }
 
+@media (max-width: 1024px) {
+  .inputWrapper {
+    width: 418px;
+  }
+}
+
 .input {
   position: absolute;
   top: 0;

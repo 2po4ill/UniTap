@@ -14,6 +14,13 @@
   overflow: hidden;
 }
 
+@media (max-width: 1024px) {
+  .infoCard {
+    width: 470px !important;
+    height: 420px !important;
+  }
+}
+
 .titleContainer {
   width: 501px;
   min-height: 60px; 
@@ -21,6 +28,12 @@
   flex-direction: column;
   justify-content: flex-end;
   position: relative;
+}
+
+@media (max-width: 1024px) {
+  .titleContainer {
+    width: 360px !important;
+  }
 }
 
 .spacer21 {
@@ -62,6 +75,12 @@
   angle: 0 deg;
   opacity: 1;
 
+}
+
+@media (max-width: 1024px) {
+  .description {
+    width: 360px !important;
+  }
 }
 
 .imageWrapper {

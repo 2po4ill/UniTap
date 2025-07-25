@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './AttractClientsBlock.module.css';
 import { AttractClientsWidget } from '../../widgets/AttractClientsWidget';
-import { AttractClientsInfoWidget } from '../../widgets/AttractClientsBlock/AttractClientsInfoWidget';
+import { AttractClientsInfoWidget } from '../../widgets/AttractClientsInfoWidget';
 import { BusinessConnectCard } from '../../widgets/BusinessConnectCard';
 
 const AttractClientsBlock: React.FC = () => {

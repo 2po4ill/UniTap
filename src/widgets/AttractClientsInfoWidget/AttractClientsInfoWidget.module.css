@@ -21,9 +21,15 @@ vertical-align: middle;
   flex-direction: row;
   gap: 30px;
   justify-content: center;
-  width: 100%;
+  width: 1260px;
   margin-top: 48px;
   margin-bottom: 134px;
+}
+@media (max-width: 1024px) {
+  .infoCardsRow {
+    gap: 30px;
+    width: 980px !important;
+  }
 }
 
 .infoCard {
@@ -37,12 +43,26 @@ vertical-align: middle;
   height: 308px;
 }
 
+@media (max-width: 1024px) {
+  .infoCard {
+    width: 308px;
+    height: 412px;
+  }
+}
+
 .icon {
     margin-left: 32px;
     margin-top: 32px;
   width: 36px;
   height: 36px;
   margin-bottom: 44px;
+}
+@media (max-width: 1024px) {
+  .icon {
+    margin-left: 16px;
+    margin-top: 32px;
+    margin-bottom: auto;
+  }
 }
 
 .title {
@@ -62,6 +82,21 @@ width: 287px;
   margin-left: 32px;
 }
 
+@media (max-width: 1024px) {
+  .title {
+    font-family: Suisse Intl;
+font-weight: 500;
+font-style: Medium;
+font-size: 25px;
+leading-trim: NONE;
+line-height: 28px;
+letter-spacing: 0%;
+vertical-align: middle;
+width: 191px;
+margin-left: 16px;
+  }
+}
+
 .description {
     color: var(--text-secondary-inverse, #FFFFFFE0);
 
@@ -78,3 +113,19 @@ vertical-align: middle;
   margin-left: 32px;
   width: 336px;
 } 
+
+@media (max-width: 1024px) {
+  .description {
+    font-family: Suisse Intl;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 24px;
+letter-spacing: 0%;
+vertical-align: middle;
+width: 276px;
+margin-left: 16px;
+margin-bottom: 32px;
+  }
+}

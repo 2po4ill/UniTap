@@ -50,10 +50,18 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 31px;
+  gap: 24px;
   width: 1200px;
   margin: 0 auto;
   padding: 0 0 31px 0;
+}
+
+@media (max-width: 1024px) {
+  .phonesBlockTop {
+    width: 980px;
+    margin-left: 22px;
+    margin-right: auto;
+  }
 }
 
 .phoneCol {
@@ -70,11 +78,23 @@
   background: #f6f7f9;
 }
 
+@media (max-width: 1024px) {
+  .phoneImgLeft {
+    height: 328px;
+  }
+}
+
 .phoneImgRight {
   width: 400px;
   max-width: 100%;
   border-radius: 38px;
   background: #f6f7f9;
+}
+
+@media (max-width: 1024px) {  
+  .phoneImgRight {
+    width: 310px;
+  }
 }
 
 .phonesMainSplit {
@@ -85,6 +105,12 @@
   max-width: 1200px;
   margin: 0 auto;
   gap: 31px;
+}
+@media (max-width: 1024px) {
+  .phonesMainSplit {
+    gap: 24px;
+    max-width: 980px;
+  }
 }
 
 .phonesLeftGrid {
@@ -144,6 +170,23 @@
     height: 1057px;
 }
 
+@media (max-width: 1024px) {
+  .phoneImgPurple {
+    width: 310px;
+  }
+  .phoneImgDelivery {
+    width: 310px;
+  }
+  .phoneImgUnitap {
+    width: 645px;
+    height: 330px;
+  }
+  .phoneImgShop {
+    width: 310px;
+    height: 820px;
+  }
+}
+
 .titleTextLeft {
   font-family: Suisse Intl;
   font-weight: 500;
@@ -172,6 +215,31 @@
   margin: 0 0 0 0;
   width: 829px;
 }
+@media (max-width: 1024px) {
+  .titleTextLeft {
+    font-family: Suisse Intl;
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 23.35px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+width: 645px;
+  }
+  .subtitleTextLeft {
+    font-family: Suisse Intl;
+font-weight: 450;
+font-style: Book;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 20.24px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+width: 645px;
+}}
 
 .titleTextRight {
   font-family: Suisse Intl;
@@ -188,6 +256,8 @@
   width: 400px;
 }
 
+
+
 .subtitleTextRight {
   font-family: Suisse Intl;
   font-weight: 450;
@@ -200,6 +270,33 @@
   color: var(--text-disable, #13131466);
   margin: 0 0 0 0;
   width: 400px;
+}
+
+@media (max-width: 1024px) {
+  .titleTextRight {
+    font-family: Suisse Intl;
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 23.35px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+width: 310px;
+  }
+  .subtitleTextRight {
+    font-family: Suisse Intl;
+font-weight: 450;
+font-style: Book;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 20.24px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+width: 310px;
+}
 }
 
 @media (max-width: 900px) {

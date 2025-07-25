@@ -19,7 +19,14 @@
   width: 1260px;
   height: 480px;
   border-radius: 60px;
-  gap: 48px;
+  gap: 28px;
+}
+
+@media (max-width: 1024px) {
+  .cardWrapper {
+    width: 980px;
+    height: 480px;
+  }
 }
 
 .leftSection {
@@ -37,7 +44,13 @@
 height: 225px;
   margin-bottom: 24px;
   top: -115px;
-left: 90px;
+  left: 90px;
+}
+
+@media (max-width: 1024px) {
+  .imageWrapper {
+    left: 40px;
+  }
 }
 
 .cardsImg {
@@ -54,6 +67,11 @@ opacity: 1;
     margin-top: 150px;
     margin-left: 90px;
     width: 477px;
+}
+@media (max-width: 1024px) {
+  .texts {
+    margin-left: 40px;
+  }
 }
 
 .title {
@@ -102,6 +120,11 @@ margin-top: 20px;
   height: 86px;
   margin-left: 90px;
 }
+  @media (max-width: 1024px) {
+    .plusFeatureCard1 {
+      margin-left: 40px;
+    }
+  }
 
 .plusFeatureIcon1 {
   width: 33px;
@@ -132,6 +155,11 @@ text-align: left;
   width: 404px;
   height: 116px;
   margin-left: 90px;
+}
+@media (max-width: 1024px) {
+  .plusFeatureCard2 {
+    margin-left: 40px;
+  }
 }
 
 .plusFeatureIcon2 {

@@ -8,6 +8,11 @@
   max-width: 1260px;
 }
 
+@media (max-width: 1024px) {
+  .cardsGrid {
+    max-width: 980px;
+  }
+}
 .cardsHeader {
   text-align: center;
   margin-bottom: 74px;
