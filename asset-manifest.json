@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/UniTap/static/css/main.c3b9f680.css",
+    "main.css": "/UniTap/static/css/main.00e837b5.css",
     "main.js": "/UniTap/static/js/main.151829a6.js",
     "static/media/Hero.png": "/UniTap/static/media/Hero.3d09102d4a1a1a8f302d.png",
     "static/media/iPhone.png": "/UniTap/static/media/iPhone.6999f8925f036d7fd6df.png",
@@ -32,11 +32,11 @@
     "static/media/UniTap.svg": "/UniTap/static/media/UniTap.6b6ceeb98da9ee825255c387ab42294e.svg",
     "static/media/Arrow.svg": "/UniTap/static/media/Arrow.61ddeff5060ca5c50e18ca24bf91f0ef.svg",
     "index.html": "/UniTap/index.html",
-    "main.c3b9f680.css.map": "/UniTap/static/css/main.c3b9f680.css.map",
+    "main.00e837b5.css.map": "/UniTap/static/css/main.00e837b5.css.map",
     "main.151829a6.js.map": "/UniTap/static/js/main.151829a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3b9f680.css",
+    "static/css/main.00e837b5.css",
     "static/js/main.151829a6.js"
   ]
 }
