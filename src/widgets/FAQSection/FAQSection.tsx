@@ -46,7 +46,7 @@ const FAQSection: React.FC = () => {
         {faqs.map((faq, idx) => (
           <div key={idx} className={styles.faqItem}>
             <button className={styles.faqQuestion} onClick={() => handleToggle(idx)}>
-              <span>{faq.question}</span>
+              <span className={styles.faqQuestionText}>{faq.question}</span>
               <span className={styles.faqArrow} style={{ transform: openIndex === idx ? 'rotate(180deg)' : 'rotate(0deg)' }}>
                 <ArrowIcon />
               </span>

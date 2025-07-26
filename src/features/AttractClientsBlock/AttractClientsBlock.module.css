@@ -1,9 +1,9 @@
 .attractClientsSection {
   background: #212121;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  border-bottom-left-radius: 100px;
-  border-bottom-right-radius: 100px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
   padding: 191px 0 191px 0;
   width: 100%;
   display: flex;

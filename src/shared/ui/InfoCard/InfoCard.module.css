@@ -21,6 +21,13 @@
   }
 }
 
+@media (max-width: 640px) {
+  .infoCard {
+    width: 284px !important;
+    height: 510px !important;
+  }
+}
+
 .titleContainer {
   width: 501px;
   min-height: 60px; 
@@ -35,6 +42,12 @@
     width: 360px !important;
   }
 }
+@media (max-width: 640px) {
+  .titleContainer {
+    width: 252px !important;
+  }
+}
+
 
 .spacer21 {
   height: 21px;
@@ -62,6 +75,21 @@
   vertical-align: middle;
 }
 
+@media (max-width: 640px) {
+  .title {
+    font-family: Suisse Intl;
+font-weight: 500;
+font-style: Medium;
+font-size: 22px;
+leading-trim: NONE;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+  }
+}
+
 .description {
   color: var(--text-secondary-inverse, #FFFFFFE0);
   font-family: Suisse Intl;
@@ -80,6 +108,22 @@
 @media (max-width: 1024px) {
   .description {
     width: 360px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .description {
+    width: 252px !important;
+    font-family: Suisse Intl;
+font-weight: 450;
+font-style: Book;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
   }
 }
 

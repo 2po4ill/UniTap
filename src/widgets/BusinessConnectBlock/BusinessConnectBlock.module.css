@@ -96,3 +96,15 @@
     max-width: 980px;
   }
 }
+
+@media (max-width: 640px) {
+  .featuresRow {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto); 
+    align-items: center;
+    max-width: 600px;
+    gap: 32px;
+  }
+}
+

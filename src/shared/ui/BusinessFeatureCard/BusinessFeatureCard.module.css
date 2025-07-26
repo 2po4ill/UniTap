@@ -27,6 +27,13 @@
     border-radius: 18px;
   }
 }
+@media (max-width: 640px) {
+  .card {
+    width: 180px;
+    height: 180px;
+    padding-bottom: 20px;
+  }
+}
 
 .icon {
   width: 60px;
@@ -42,6 +49,11 @@
     margin-bottom: 53px;
   }
 }
+@media (max-width: 640px) {
+  .icon {
+    margin-bottom: 54px;
+  }
+}
 
 .texts {
   display: flex;
@@ -49,6 +61,7 @@
   align-items: flex-start;
   width: 100%;
 }
+
 
 .title {
     width: 151px;
@@ -81,6 +94,11 @@ vertical-align: middle;
 margin-bottom: 5px;
   }
 }
+@media (max-width: 640px) {
+  .title {
+    margin-bottom: 0px;
+  }
+}
 
 .description {
   width: 151px;
@@ -107,5 +125,10 @@ line-height: 14.2px;
 letter-spacing: 0%;
 vertical-align: middle;
 width: 113px;
+  }
+}
+@media (max-width: 640px) {
+  .description {
+    margin-bottom: 10px;
   }
 }

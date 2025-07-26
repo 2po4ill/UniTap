@@ -29,6 +29,17 @@
   }
 }
 
+@media (max-width: 640px) {
+  .cardWrapper {
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+    width: 600px;
+    height: 379px;
+    gap: 0;
+  }
+}
+
 .leftSection {
     position: relative;
   display: flex;
@@ -53,6 +64,15 @@ height: 225px;
   }
 }
 
+@media (max-width: 640px) { 
+  .imageWrapper {
+    width: 217px;
+    height: 178px;
+    top: -40px;
+    left: 10px;
+  }
+}
+
 .cardsImg {
   width: 100%;
   height: auto;
@@ -71,6 +91,12 @@ opacity: 1;
 @media (max-width: 1024px) {
   .texts {
     margin-left: 40px;
+  }
+}
+@media (max-width: 640px) {
+  .texts {
+    margin-left: 18px;
+    width: 300px; 
   }
 }
 
@@ -98,6 +124,33 @@ letter-spacing: 0%;
 vertical-align: middle;
 text-align: left;
 margin-top: 20px;
+}
+
+@media (max-width: 640px) {
+  .title {
+    font-family: Suisse Intl;
+font-weight: 800;
+font-style: Medium;
+font-size: 27.63px;
+leading-trim: NONE;
+line-height: 35.53px;
+letter-spacing: 0%;
+vertical-align: middle;
+
+width: 300px;
+  }
+
+  .subtitle {
+    font-family: Suisse Intl;
+font-weight: 450;
+font-style: Book;
+font-size: 14.21px;
+leading-trim: NONE;
+line-height: 20.53px;
+letter-spacing: 0%;
+vertical-align: middle;
+width: 300px;
+  }
 }
 
 .rightSection {
@@ -182,12 +235,6 @@ text-align: left;
 }
 
 @media (max-width: 900px) {
-  .cardWrapper {
-    flex-direction: column;
-    align-items: stretch;
-    padding: 32px 12px;
-    gap: 32px;
-  }
   .leftSection, .rightSection {
     min-width: 0;
     width: 100%;
@@ -197,5 +244,58 @@ text-align: left;
     min-width: 0;
     width: 100%;
     justify-content: center;
+  }
+
+  @media (max-width: 640px) {
+    .rightSection {
+      margin-top: 130px;
+      gap: 30px;
+    }
+    .plusFeatureCard1 {
+      margin-bottom: 10px;
+      width: 235px;
+      height: 50px;
+    }
+    .plusFeatureCard2 {
+      margin-top: 0px;
+      width: 250px;
+      height: 72px;
+    }
+    .plusFeatureIcon1 {
+      width: 20px;
+      height: 20px;
+    }
+    .plusFeatureIcon2 {
+      width: 20px;
+      height: 20px;
+    }
+    .plusFeatureText1 {
+      font-family: Suisse Intl;
+font-weight: 450;
+font-style: Book;
+font-size: 11.17px;
+leading-trim: NONE;
+line-height: 14.27px;
+letter-spacing: 0%;
+vertical-align: middle;
+
+    }
+    .plusFeatureText2 {
+      font-family: Suisse Intl;
+font-weight: 450;
+font-style: Book;
+font-size: 11.17px;
+leading-trim: NONE;
+line-height: 14.27px;
+letter-spacing: 0%;
+vertical-align: middle;
+
+    }
+    .leftSection {
+      width: 280px;
+    }
+    .rightSection {
+      width: 240px;
+    }
   }
 } 

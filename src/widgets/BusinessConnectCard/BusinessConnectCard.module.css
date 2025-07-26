@@ -18,6 +18,13 @@
   }
 }
 
+@media (max-width: 640px) {
+  .connectCard {
+    width: 600px;
+    height: 379px;
+  }
+}
+
 .connectText {
     width: 477px;
     height: 110px;
@@ -31,6 +38,13 @@
 @media (max-width: 1024px) {
   .connectText {
     margin-left: 41px;
+  }
+}
+
+@media (max-width: 640px) {
+  .connectText {
+    margin-left: 35px;
+    margin-top: 80px;
   }
 }
 
@@ -50,6 +64,21 @@
   margin: 0 0 20px 0;
 }
 
+@media (max-width: 640px) {
+  .connectTitle {
+    font-family: Suisse Intl;
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 27.63px;
+letter-spacing: 0%;
+vertical-align: middle;
+
+    width: 284px;
+  }
+}
+
 .connectDesc {
   color: var(--text-secondary-inverse, #FFFFFFE0);
   width: 477px;
@@ -65,6 +94,21 @@
   margin: 0;
 }
 
+@media (max-width: 640px) {
+  .connectDesc {
+    font-family: Suisse Intl;
+font-weight: 450;
+font-style: Book;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 20.53px;
+letter-spacing: 0%;
+vertical-align: middle;
+
+    width: 284px;
+  }
+}
+
 .connectImageWrapper {
     margin-top: 90px;
     margin-right: 204px;
@@ -75,6 +119,13 @@
 @media (max-width: 1024px) {
   .connectImageWrapper {
     margin-right: 115px;
+    margin-top: 105px;
+  }
+}
+
+@media (max-width: 640px) {
+  .connectImageWrapper {
+    margin-right: 65px;
   }
 }
 
@@ -91,4 +142,15 @@
   top: 23%;
   left: 28%;
   height: auto;
+}
+
+@media (max-width: 640px) {
+  .connectImage{
+    width: 170px;
+  }
+  .businessBadge {
+    width: 175px;
+    top: 15%;
+    left: 28%;
+  }
 }
