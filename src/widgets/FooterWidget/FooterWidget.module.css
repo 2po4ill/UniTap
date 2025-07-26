@@ -127,7 +127,7 @@ text-align: left;
 @media (max-width: 1024px) {
   .footerSocials {
     width: 340px;
-    margin-left: 70px;
+    margin-left: 0px;
     margin-bottom: 0px;
   }
 }
