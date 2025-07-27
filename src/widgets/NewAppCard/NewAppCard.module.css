@@ -11,14 +11,14 @@ border-radius: 60px;
 margin-bottom: 109px;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .newAppCardWrapper {
     width: 980px;
     gap: 30px;
   }
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .newAppCardWrapper {
     flex-direction: column;
     align-items: center;
@@ -26,6 +26,15 @@ margin-bottom: 109px;
     height: 824px;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .newAppCardWrapper {
+    flex-direction: column;
+    width: 320px;
+    height: 824px;
     overflow: hidden;
   }
 }
@@ -39,17 +48,25 @@ margin-bottom: 109px;
   min-width: 340px;
   margin-left: 90px;
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .leftSection {
     margin-left: 34px;
   }
 }
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .leftSection {
     align-items: center;
     margin-left: 0;
   }
 }
+@media (min-width: 360px) and (max-width: 639px) {
+  .leftSection {
+    align-items: center;
+    min-width: 320px;
+    margin-left: 0;
+  }
+}
+
 
 .cardLogo {
   width: 108px;
@@ -58,7 +75,7 @@ margin-bottom: 109px;
   margin-bottom: 106px;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .cardLogo {
     width: 94px;
     height: 94px;
@@ -67,9 +84,16 @@ margin-bottom: 109px;
   }
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .cardLogo {
     margin-top: 67px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .cardLogo {
+    margin-top: 59px;
     margin-bottom: 25px;
   }
 }
@@ -86,7 +110,7 @@ letter-spacing: 0%;
 vertical-align: middle;
   text-align: left;
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .title {
     font-family: Suisse Intl;
 font-weight: 500;
@@ -100,7 +124,7 @@ vertical-align: middle;
   }
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .title {
     font-family: Suisse Intl;
 font-weight: 500;
@@ -114,13 +138,28 @@ vertical-align: middle;
   }
 }
 
+@media (min-width: 360px) and (max-width: 639px) {
+  .title {
+    font-family: Suisse Intl;
+font-weight: 500;
+font-style: Medium;
+font-size: 22px;
+leading-trim: NONE;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+width: 320px;
+  }
+}
+
 .storesRow {
   display: flex;
   flex-direction: row;
   gap: 25px;
   margin-top: 40px;
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .storesRow {
     margin-top: 30px;
     gap: 15px;
@@ -130,7 +169,7 @@ vertical-align: middle;
   }
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .storesRow {
     display: flex;
   flex-direction: row;
@@ -141,6 +180,18 @@ vertical-align: middle;
   margin-bottom: 15px;
   }
 }
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .storesRow {
+    margin-top: 20px;
+    gap: 10px;
+    width: 320px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+  }}
 
 .rightSection {
   display: flex;
@@ -154,9 +205,16 @@ vertical-align: middle;
   width: 320px;
   height: auto;
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .iphoneImg {
     width: 305px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .iphoneImg {
+    width: 231px;
+    height: auto;
   }
 }
 
@@ -165,3 +223,11 @@ vertical-align: middle;
   width: 123px;
   display: block;
 } 
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .storeIcon {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+

@@ -8,17 +8,28 @@
   max-width: 1260px;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .cardsGrid {
     max-width: 980px;
   }
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .cardsGrid {
     max-width: 600px;
     row-gap: 30px;
     margin: 20px auto;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .cardsGrid {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
   }
 }
 
@@ -62,7 +73,7 @@ letter-spacing: 0%;
   margin-right: auto;
 } 
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
    .cardsTitle {
     font-family: Suisse Intl;
     font-weight: 600;
@@ -92,3 +103,30 @@ vertical-align: middle;
 width: 440px;
   }
 }
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .cardsTitle {
+    font-family: Suisse Intl;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 25px;
+leading-trim: NONE;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+width: 320px;
+  }
+  .cardsSubtitle {
+    font-family: Suisse Intl;
+font-weight: 450;
+font-style: Book;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+width: 320px;
+  }
+} 

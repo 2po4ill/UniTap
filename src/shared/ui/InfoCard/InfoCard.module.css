@@ -14,16 +14,23 @@
   overflow: hidden;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .infoCard {
     width: 470px !important;
     height: 420px !important;
   }
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .infoCard {
     width: 284px !important;
+    height: 510px !important;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .infoCard {
+    width: 320px !important;
     height: 510px !important;
   }
 }
@@ -37,14 +44,20 @@
   position: relative;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .titleContainer {
     width: 360px !important;
   }
 }
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .titleContainer {
     width: 252px !important;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .titleContainer {
+    width: 288px !important;
   }
 }
 
@@ -75,7 +88,22 @@
   vertical-align: middle;
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
+  .title {
+    font-family: Suisse Intl;
+font-weight: 500;
+font-style: Medium;
+font-size: 22px;
+leading-trim: NONE;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
   .title {
     font-family: Suisse Intl;
 font-weight: 500;
@@ -105,15 +133,31 @@ vertical-align: middle;
 
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .description {
     width: 360px !important;
   }
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .description {
     width: 252px !important;
+    font-family: Suisse Intl;
+font-weight: 450;
+font-style: Book;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .description {
+    width: 288px !important;
     font-family: Suisse Intl;
 font-weight: 450;
 font-style: Book;

@@ -32,7 +32,7 @@
   margin: 0 0 18px 0;
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .title {
     font-family: Suisse Intl;
 font-weight: 600;
@@ -45,6 +45,21 @@ text-align: center;
 vertical-align: middle;
 
     width: 600px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .title {
+    font-family: Suisse Intl;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 25px;
+leading-trim: NONE;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+width: 320px;
   }
 }
 
@@ -62,7 +77,7 @@ vertical-align: middle;
   margin: 0;
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .subtitle {
     font-family: Suisse Intl;
 font-weight: 450;
@@ -78,17 +93,32 @@ vertical-align: middle;
   }
 }
 
+@media (min-width: 360px) and (max-width: 639px) {
+  .subtitle {
+    font-family: Suisse Intl;
+font-weight: 450;
+font-style: Book;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+width: 320px;
+  }
+}
+
 .phonesBlockTop {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 24px;
+  gap: 60px;
   width: 1200px;
   margin: 0 auto;
   padding: 0 0 31px 0;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .phonesBlockTop {
     width: 980px;
     margin-left: 22px;
@@ -96,13 +126,22 @@ vertical-align: middle;
   }
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .phonesBlockTop {
     width: 600px;
     margin-left: 0;
     margin-right: 0;
     align-items: center;
     gap: 30px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .phonesBlockTop {
+    width: 320px;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -113,10 +152,26 @@ vertical-align: middle;
   flex: 1 1 0;
   min-width: 0;
 }
+.phoneCol:first-child {
+  flex: 2 1 0; /* First column gets more space */
+}
+.phoneCol:last-child {
+  flex: 1 1 0; /* Second column gets less space */
+}
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .phoneCol:first-child {
     flex: 2 1 0; /* First column gets more space */
+  }
+
+  .phoneCol:last-child {
+    flex: 1 1 0; /* Second column gets less space */
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .phoneCol:first-child {
+    flex: 1 1 0; /* First column gets more space */
   }
 
   .phoneCol:last-child {
@@ -132,17 +187,25 @@ vertical-align: middle;
   background: #f6f7f9;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .phoneImgLeft {
     height: 328px;
   }
 }
 
-@media (max-width: 640px) { 
+@media (min-width: 640px) and (max-width: 1023px) { 
   .phoneImgLeft {
     height: 198px;
   }
 }
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .phoneImgLeft {
+    object-fit: cover;
+    object-position: center;
+    height: 159px;
+    width: 150px;
+  }}
 
 .phoneImgRight {
   width: 400px;
@@ -151,19 +214,24 @@ vertical-align: middle;
   background: #f6f7f9;
 }
 
-@media (max-width: 1024px) {  
+@media (min-width: 1024px) and (max-width: 1439px) {  
   .phoneImgRight {
     width: 310px;
   }
 }
-@media (max-width: 640px) { 
+@media (min-width: 640px) and (max-width: 1023px) { 
   .phoneImgRight {
     height: 198px;
     width: auto;
   }
 }
 
-
+@media (min-width: 360px) and (max-width: 639px) {
+  .phoneImgRight {
+    height: 159px;
+    width: auto;
+  }
+}
 
 .phonesMainSplit {
   display: flex;
@@ -174,17 +242,26 @@ vertical-align: middle;
   margin: 0 auto;
   gap: 31px;
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .phonesMainSplit {
     gap: 24px;
     max-width: 980px;
   }
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .phonesMainSplit {
     max-width: 600px;
     gap: 30px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .phonesMainSplit {
+    max-width: 320px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -194,6 +271,13 @@ vertical-align: middle;
   justify-content: stretch;
   flex: 1 1 0;
   gap: 31px;
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .phonesLeftGrid {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
 }
 
 .phonesLeftTopRow {
@@ -279,6 +363,28 @@ vertical-align: middle;
   }
 }
 
+@media (min-width: 360px) and (max-width: 639px) {
+
+  .phoneImgPurple {
+    width: 150px;
+  }
+  .phoneImgDelivery {
+    width: 150px;
+  }
+  .phoneImgUnitap {
+    width: 320px;
+    height: 162px;
+  }
+  .phoneImgShop {
+    object-fit: cover;
+    object-position: center;
+    width: 320px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  
+}
+
 .titleTextLeft {
   font-family: Suisse Intl;
   font-weight: 500;
@@ -307,7 +413,7 @@ vertical-align: middle;
   margin: 0 0 0 0;
   width: 829px;
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .titleTextLeft {
     font-family: Suisse Intl;
 font-weight: 500;
@@ -333,7 +439,7 @@ vertical-align: middle;
 width: 645px;
 }}
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .titleTextLeft {
     font-family: Suisse Intl;
 font-weight: 500;
@@ -361,6 +467,36 @@ vertical-align: middle;
 
     width: 360px;
   }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+
+  .titleTextLeft {
+    font-family: Suisse Intl;
+font-weight: 500;
+font-style: Medium;
+font-size: 13.56px;
+leading-trim: NONE;
+line-height: 11.28px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+width: 150px;
+  }
+  
+  .subtitleTextLeft {
+    font-family: Suisse Intl;
+font-weight: 450;
+font-style: Book;
+font-size: 8.47px;
+leading-trim: NONE;
+line-height: 9.77px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+width: 150px;
+  }
+  
 }
 
 .titleTextRight {
@@ -394,7 +530,7 @@ vertical-align: middle;
   width: 400px;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .titleTextRight {
     font-family: Suisse Intl;
 font-weight: 500;
@@ -421,7 +557,7 @@ width: 310px;
 }
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .titleTextRight {
     font-family: Suisse Intl;
 font-weight: 500;
@@ -449,5 +585,35 @@ vertical-align: middle;
     width: 177px;
   }
 }
+
+@media (min-width: 360px) and (max-width: 639px) {
+
+  .titleTextRight {
+    font-family: Suisse Intl;
+font-weight: 500;
+font-style: Medium;
+font-size: 13.56px;
+leading-trim: NONE;
+line-height: 11.28px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+width: 150px;
+  }
+  
+  .subtitleTextRight {
+    font-family: Suisse Intl;
+font-weight: 450;
+font-style: Book;
+font-size: 8.47px;
+leading-trim: NONE;
+line-height: 9.77px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+width: 150px;
+  }
+  
+} 
 
 

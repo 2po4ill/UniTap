@@ -4,9 +4,15 @@
   width: 830px;
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .faqSection {
     width: 600px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .faqSection {
+    width: 320px;
   }
 }
 
@@ -27,10 +33,37 @@
   margin-bottom: 64px;
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .faqSubtitle {
     width: 500px;
     margin: 0 auto 64px auto;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .faqTitle {
+    font-family: Suisse Intl;
+font-weight: 500;
+font-style: Medium;
+font-size: 25px;
+leading-trim: NONE;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+  }
+  .faqSubtitle {
+    font-family: Suisse Intl;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
   }
 }
 
@@ -42,7 +75,7 @@
   width: 100%;
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .faqList {
     width: 600px;
   }
@@ -77,7 +110,7 @@ vertical-align: middle;
   transition: color 0.2s;
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .faqQuestion {
     font-family: Suisse Intl;
 font-weight: 500;
@@ -95,6 +128,25 @@ width: 600px;
 }
 
 
+@media (min-width: 360px) and (max-width: 639px) {
+  .faqQuestion {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Suisse Intl;
+font-weight: 500;
+font-style: Medium;
+font-size: 22px;
+leading-trim: NONE;
+line-height: 28px;
+letter-spacing: 0%;
+vertical-align: middle;
+
+  }
+  .faqQuestionText {
+    width: 270px;
+  }
+}
+
 
 .faqArrow {
   font-size: 20px;
@@ -102,7 +154,7 @@ width: 600px;
   color: #b0b0b0; /* Push arrow to the end */ /* Prevent arrow from shrinking */
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .faqArrow {
     margin-left: auto; /* Ensure arrow stays at end on mobile */
   }
@@ -125,7 +177,7 @@ width: 600px;
   margin: 0 0 0 0;
 } 
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .faqDivider {
     width: 600px;
   }

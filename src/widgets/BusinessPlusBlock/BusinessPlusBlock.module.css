@@ -22,20 +22,32 @@
   gap: 28px;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .cardWrapper {
     width: 980px;
     height: 480px;
   }
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .cardWrapper {
     display: flex;
   flex-direction: row;
   align-items: center;
     width: 600px;
     height: 379px;
+    gap: 0;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .cardWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 469px;
     gap: 0;
   }
 }
@@ -49,6 +61,16 @@
   flex: 1 1 0;
 }
 
+@media (min-width: 360px) and (max-width: 639px) {
+  .leftSection {
+    flex-direction: column-reverse  ;
+    position: static;
+    min-width: 320px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 .imageWrapper {
   position: absolute;
   width: 291px;
@@ -58,18 +80,29 @@ height: 225px;
   left: 90px;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .imageWrapper {
     left: 40px;
   }
 }
 
-@media (max-width: 640px) { 
+@media (min-width: 640px) and (max-width: 1023px) { 
   .imageWrapper {
     width: 217px;
     height: 178px;
     top: -40px;
     left: 10px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .imageWrapper {
+    width: 158px;
+    height: 130px;
+    top: 0px;
+    left: 0px;
+    position: static;
+    margin: 10px auto 0 auto;
   }
 }
 
@@ -88,15 +121,22 @@ opacity: 1;
     margin-left: 90px;
     width: 477px;
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .texts {
     margin-left: 40px;
   }
 }
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .texts {
     margin-left: 18px;
     width: 300px; 
+  }
+}
+@media (min-width: 360px) and (max-width: 639px) {
+  .texts {
+    margin-left: 0px;
+    margin-top: 34px;
+    width: 100%;
   }
 }
 
@@ -126,7 +166,7 @@ text-align: left;
 margin-top: 20px;
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .title {
     font-family: Suisse Intl;
 font-weight: 800;
@@ -153,6 +193,36 @@ width: 300px;
   }
 }
 
+@media (min-width: 360px) and (max-width: 639px) {
+  .title {
+    font-family: Suisse Intl;
+font-weight: 500;
+font-style: Medium;
+font-size: 22px;
+leading-trim: NONE;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+    width: 264px;
+    margin: 0 auto 10px auto;
+  }
+  .subtitle {
+    text-align: center;
+    font-family: Suisse Intl;
+font-weight: 450;
+font-style: Book;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+width: 264px;
+margin: 0 auto;
+  }
+}
+
 .rightSection {
   display: flex;
   flex-direction: column;
@@ -173,7 +243,7 @@ width: 300px;
   height: 86px;
   margin-left: 90px;
 }
-  @media (max-width: 1024px) {
+  @media (min-width: 1024px) and (max-width: 1439px) {
     .plusFeatureCard1 {
       margin-left: 40px;
     }
@@ -209,7 +279,7 @@ text-align: left;
   height: 116px;
   margin-left: 90px;
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .plusFeatureCard2 {
     margin-left: 40px;
   }
@@ -233,20 +303,7 @@ letter-spacing: 0%;
 vertical-align: middle;
 text-align: left;
 }
-
-@media (max-width: 900px) {
-  .leftSection, .rightSection {
-    min-width: 0;
-    width: 100%;
-    align-items: center;
-  }
-  .featureCard {
-    min-width: 0;
-    width: 100%;
-    justify-content: center;
-  }
-
-  @media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
     .rightSection {
       margin-top: 130px;
       gap: 30px;
@@ -298,4 +355,54 @@ vertical-align: middle;
       width: 240px;
     }
   }
-} 
+
+  @media (min-width: 360px) and (max-width: 639px) {
+    .plusFeatureCard1 {
+      width: 236px;
+      height: 68px;
+      transform: rotate(0deg);
+      margin-left: 0px;
+    }
+    .plusFeatureCard2 {
+      width: 236px;
+      height: 68px;
+      transform: rotate(0deg);
+      margin-left: 0px;
+    }
+    .rightSection {
+      margin-top: 30px;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+    }
+    .plusFeatureIcon1 {
+      width: 16px;
+      height: 16px;
+    }
+    .plusFeatureIcon2 {
+      width: 16px;
+      height: 16px;
+    }
+    .plusFeatureText1 {
+      font-family: Suisse Intl;
+font-weight: 450;
+font-style: Book;
+font-size: 10.52px;
+leading-trim: NONE;
+line-height: 13.45px;
+letter-spacing: 0%;
+vertical-align: middle;
+
+    }
+    .plusFeatureText2 {
+      font-family: Suisse Intl;
+font-weight: 450;
+font-style: Book;
+font-size: 10.52px;
+leading-trim: NONE;
+line-height: 13.45px;
+letter-spacing: 0%;
+vertical-align: middle;
+
+    }
+  }

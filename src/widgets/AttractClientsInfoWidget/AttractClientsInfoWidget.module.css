@@ -16,7 +16,7 @@ vertical-align: middle;
   margin-top: 210px;
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .sectionTitle {
     font-family: Suisse Intl;
 font-weight: 700;
@@ -32,6 +32,22 @@ margin: 210px auto 56px auto;
   }
 }
 
+@media (min-width: 360px) and (max-width: 639px) {
+  .sectionTitle {
+    font-family: Suisse Intl;
+font-weight: 700;
+font-style: Bold;
+font-size: 25px;
+leading-trim: NONE;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+width: 320px;
+margin: 210px auto 56px auto;
+  }
+}
+
 .infoCardsRow {
   display: flex;
   flex-direction: row;
@@ -41,19 +57,28 @@ margin: 210px auto 56px auto;
   margin-top: 48px;
   margin-bottom: 134px;
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .infoCardsRow {
     gap: 30px;
     width: 980px !important;
   }
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .infoCardsRow {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     max-width: 600px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .infoCardsRow {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    max-width: 320px;
   }
 }
 
@@ -69,16 +94,23 @@ margin: 210px auto 56px auto;
   height: 308px;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .infoCard {
     width: 308px;
     height: 412px;
   }
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .infoCard {
     width: 284px;
+    height: 380px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .infoCard {
+    width: 320px;
     height: 380px;
   }
 }
@@ -90,7 +122,15 @@ margin: 210px auto 56px auto;
   height: 36px;
   margin-bottom: 44px;
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .icon {
+    margin-left: 16px;
+    margin-top: 32px;
+    margin-bottom: auto;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
   .icon {
     margin-left: 16px;
     margin-top: 32px;
@@ -115,7 +155,7 @@ width: 287px;
   margin-left: 32px;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .title {
     font-family: Suisse Intl;
 font-weight: 500;
@@ -130,7 +170,7 @@ margin-left: 16px;
   }
 }
   
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .title {
     font-family: Suisse Intl;
 font-weight: 500;
@@ -141,6 +181,12 @@ line-height: 28px;
 letter-spacing: 0%;
 vertical-align: middle;
 width: 258px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .title {
+    margin-left: 16px;
   }
 }
 
@@ -161,7 +207,7 @@ vertical-align: middle;
   width: 336px;
 } 
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .description {
     font-family: Suisse Intl;
 font-weight: 400;
@@ -176,7 +222,7 @@ margin-left: 16px;
 margin-bottom: 32px;
   }
 }
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .description {
     font-family: Suisse Intl;
 font-weight: 400;
@@ -187,5 +233,13 @@ line-height: 24px;
 letter-spacing: 0%;
 vertical-align: middle;
 width: 252px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .description {
+    width: 288px;
+    margin-left: 16px;
+    margin-bottom: 20px;
   }
 }

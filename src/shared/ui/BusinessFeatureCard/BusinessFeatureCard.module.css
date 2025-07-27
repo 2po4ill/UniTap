@@ -1,7 +1,7 @@
 .card {
     background: var(--bg-white_secondary, #FFFFFF14);
     width: 183px;
-    height: 240px;
+    height: 270px;
     angle: 0 deg;
     opacity: 1;
     border-radius: 25px;
@@ -16,7 +16,7 @@
   margin: 0 auto;
   position: relative;
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .card {
     width: 136px;
     height: 180px;
@@ -27,9 +27,16 @@
     border-radius: 18px;
   }
 }
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .card {
     width: 180px;
+    height: 220px;
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 360px) and (max-width: 639px) {
+  .card {
+    width: 150px;
     height: 180px;
     padding-bottom: 20px;
   }
@@ -42,16 +49,23 @@
   align-self: flex-start;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .icon {
     width: 45px;
     height: 45px;
     margin-bottom: 53px;
   }
 }
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .icon {
     margin-bottom: 54px;
+  }
+}
+@media (min-width: 360px) and (max-width: 639px) {
+  .icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 40px;
   }
 }
 
@@ -81,7 +95,7 @@
   text-align: left;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .title {
     font-family: Suisse Intl;
 font-weight: 500;
@@ -94,9 +108,23 @@ vertical-align: middle;
 margin-bottom: 5px;
   }
 }
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .title {
     margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .title {
+    font-family: Suisse Intl;
+font-weight: 500;
+font-style: Medium;
+font-size: 15px;
+leading-trim: NONE;
+line-height: 22.42px;
+letter-spacing: 0%;
+vertical-align: middle;
+
   }
 }
 
@@ -114,7 +142,7 @@ letter-spacing: 0%;
   vertical-align: middle;
   text-align: left;
 } 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .description {
     font-family: Suisse Intl;
 font-weight: 450;
@@ -127,8 +155,21 @@ vertical-align: middle;
 width: 113px;
   }
 }
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .description {
     margin-bottom: 10px;
+  }
+}
+@media (min-width: 360px) and (max-width: 639px) {
+  .description {
+    font-family: Suisse Intl;
+font-weight: 450;
+font-style: Book;
+font-size: 12px;
+leading-trim: NONE;
+line-height: 14.2px;
+letter-spacing: 0%;
+vertical-align: middle;
+width: 113px;
   }
 }

@@ -6,7 +6,7 @@
   margin: 164px auto 0 auto;
   box-sizing: border-box;
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .form {
     width: 980px;
     height: 1093px;
@@ -14,10 +14,18 @@
   }
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .form {
     width: 600px;
     height: 1304px;
+    margin: 164px auto 0 auto;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .form {
+    width: 320px;
+    height: 1397px;
     margin: 164px auto 0 auto;
   }
 }
@@ -28,12 +36,21 @@
   gap: 45px;
 }
 
-@media (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .formGrid {
     flex-direction: column;
     align-items: center;
     gap: 25px;
     max-width: 600px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .formGrid {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    max-width: 320px;
   }
 }
 
@@ -60,6 +77,21 @@ margin-left: 50px;
 margin-top: 50px;
 }
 
+@media (min-width: 360px) and (max-width: 639px) {
+  .formTitle {
+    font-family: Suisse Intl;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 25px;
+leading-trim: NONE;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+margin-left: 0;
+  }
+}
+
 .formSubtitle {
     color: var(--text-secondary-inverse, #FFFFFFE0);
 
@@ -75,6 +107,21 @@ text-align: left;
 margin-left: 50px;
 margin-top: 25px;
   margin-bottom: 0;
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .formSubtitle {
+    font-family: Suisse Intl;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+margin-left: 0;
+  }
 }
 
 .formRight {
@@ -99,6 +146,12 @@ margin-top: 25px;
   width: 558px;
   box-sizing: border-box;
   transition: border 0.2s;
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .input, .textarea {
+    width: 270px;
+  }
 }
 
 .input:focus, .textarea:focus {
@@ -147,10 +200,24 @@ letter-spacing: 0.1px;
   user-select: none;
   line-height: 1.4;
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .checkboxLabel {
     width: 381px;
     text-align: left;
+  }
+}
+@media (min-width: 360px) and (max-width: 639px) {
+  .checkboxLabel {
+    width: 270px;
+    text-align: left;
+    font-family: Suisse Intl;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 20px;
+letter-spacing: 0.1px;
+width: 234px; 
   }
 }
 
@@ -170,6 +237,14 @@ letter-spacing: 0.1px;
 .checkboxLabel a {
   color: #fff;
   text-decoration: underline;
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .checkboxLabel a {
+    display: flex;
+    flex-direction: column;
+    width: 234px;
+  }
 }
 
 .customCheckbox {
@@ -219,9 +294,15 @@ letter-spacing: 0.1px;
   cursor: pointer;
   transition: background 0.2s, color 0.2s;
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .submitButton {
     width: 418px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .submitButton {
+    width: 270px;
   }
 }
 
@@ -253,4 +334,10 @@ letter-spacing: 0.1px;
 }
 .checkboxLabelTextLink {
     text-align: left;
+}
+@media (min-width: 360px) and (max-width: 639px) {
+  .checkboxLabelTextLink {
+    width: 234px;
+    white-space: normal;
+  }
 }

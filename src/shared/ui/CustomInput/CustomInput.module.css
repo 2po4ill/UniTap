@@ -4,9 +4,15 @@
   height: 65px;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .inputWrapper {
     width: 418px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 639px) {
+  .inputWrapper {
+    width: 270px;
   }
 }
 
