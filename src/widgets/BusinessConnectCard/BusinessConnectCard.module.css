@@ -138,6 +138,7 @@ leading-trim: NONE;
 line-height: 20.53px;
 letter-spacing: 0%;
 vertical-align: middle;
+width: 240px;
   }
 }
 
@@ -172,7 +173,8 @@ width: 284px;
 
 @media (min-width: 640px) and (max-width: 1023px) {
   .connectImageWrapper {
-    margin-right: 65px;
+    margin-right: 40px;
+
   }
 }
 

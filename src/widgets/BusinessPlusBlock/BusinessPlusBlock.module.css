@@ -249,6 +249,12 @@ margin: 0 auto;
     }
   }
 
+  @media (min-width: 640px) and (max-width: 1023px) {
+    .plusFeatureCard1 {
+      margin-left: 0px;
+    }
+  }
+
 .plusFeatureIcon1 {
   width: 33px;
   height: 30px;
@@ -282,6 +288,12 @@ text-align: left;
 @media (min-width: 1024px) and (max-width: 1439px) {
   .plusFeatureCard2 {
     margin-left: 40px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  .plusFeatureCard2 {
+    margin-left: 0px;
   }
 }
 
