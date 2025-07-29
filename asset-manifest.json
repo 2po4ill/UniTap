@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/UniTap/static/css/main.afc79365.css",
-    "main.js": "/UniTap/static/js/main.151829a6.js",
+    "main.css": "/UniTap/static/css/main.77e2878a.css",
+    "main.js": "/UniTap/static/js/main.96e100c4.js",
+    "static/media/sample user.png": "/UniTap/static/media/sample user.a1b21a4fb1d3ab8f308a.png",
     "static/media/Hero.png": "/UniTap/static/media/Hero.3d09102d4a1a1a8f302d.png",
     "static/media/iPhone.png": "/UniTap/static/media/iPhone.6999f8925f036d7fd6df.png",
     "static/media/ShopListPhones.png": "/UniTap/static/media/ShopListPhones.548b362eaf2ed107c594.png",
@@ -32,11 +33,11 @@
     "static/media/UniTap.svg": "/UniTap/static/media/UniTap.6b6ceeb98da9ee825255c387ab42294e.svg",
     "static/media/Arrow.svg": "/UniTap/static/media/Arrow.61ddeff5060ca5c50e18ca24bf91f0ef.svg",
     "index.html": "/UniTap/index.html",
-    "main.afc79365.css.map": "/UniTap/static/css/main.afc79365.css.map",
-    "main.151829a6.js.map": "/UniTap/static/js/main.151829a6.js.map"
+    "main.77e2878a.css.map": "/UniTap/static/css/main.77e2878a.css.map",
+    "main.96e100c4.js.map": "/UniTap/static/js/main.96e100c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.afc79365.css",
-    "static/js/main.151829a6.js"
+    "static/css/main.77e2878a.css",
+    "static/js/main.96e100c4.js"
   ]
 }
